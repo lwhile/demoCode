@@ -1,0 +1,8 @@
+FROM ubuntu14.04
+RUN apt-get update
+RUN apt-get install -y inetutils-ping 
+RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y curl
+EXPOSE 80
+CMD /bin/bash

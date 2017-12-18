@@ -1,0 +1,5 @@
+# Version:0.1
+FROM Ubuntu14.04
+MAINTAINER lwh "912293672@qq.com"
+RUN apt-get update
+RUN apt-get install -y nginx
